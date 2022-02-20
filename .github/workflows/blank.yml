@@ -36,6 +36,7 @@ jobs:
           git checkout app
           git branch -a
           cat README.md
-          git merge origin/master
+          git fetch master
+          git merge master
           git push origin app --force
           cat README.md
