@@ -30,6 +30,8 @@ jobs:
           git clone https://github.com/SNeeharika/Epic_repo.git
           cd Epic_repo
           cat README.md
+          git merge origin/master
+          git push master
           git checkout app
           git remote set-url origin https://github.com/SNeeharika/Epic_repo.git
           git branch -a
