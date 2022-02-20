@@ -28,7 +28,7 @@ jobs:
           #git pull origin
           #git fetch origin
           git clone https://github.com/SNeeharika/Epic_repo.git
-          cd Epic_reo
+          cd Epic_repo
           ls
           cat README.md 
           git checkout app
