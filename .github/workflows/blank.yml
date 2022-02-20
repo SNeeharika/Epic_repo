@@ -3,9 +3,9 @@ name: CI
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
   push:
-    branches: [ master , app ]
+    branches: [ master ]
   pull_request:
-    branches: [ master , app ]
+    branches: [ master ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -29,13 +29,11 @@ jobs:
           #git fetch origin
           git clone https://github.com/SNeeharika/Epic_repo.git
           cd Epic_repo
-          cat README.md 
+          cat README.md
           git checkout app
           git remote set-url origin https://github.com/SNeeharika/Epic_repo.git
           git branch -a
           cat README.md
-          git pull origin master 
-          git add .
-          git commit -m "updating app branch"
-          #git merge master
+          git merge origin/master
+          git push origin app --force
           cat README.md
