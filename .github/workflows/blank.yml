@@ -27,8 +27,7 @@ jobs:
           cd Epic_repo
           git config --global user.email "neeharika5samboji@gmail.com"
           git config --global user.name "SNeeharika"
-          #git pull origin
-          #git fetch origin
+         
           git remote set-url origin https://github.com/SNeeharika/Epic_repo.git
           cat README.md
           #git merge origin
@@ -36,7 +35,6 @@ jobs:
           git checkout app
           git branch -a
           cat README.md
-          git fetch master
           git merge master
           git push origin app --force
           cat README.md
