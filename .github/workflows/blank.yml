@@ -31,7 +31,7 @@ jobs:
           git checkout app
           git branch -a
           cat README.md
-          git config pull.rebase true   # rebase
+          git config pull.rebase false   # rebase
           #git config pull.ff only 
           git pull origin master
           git add .
