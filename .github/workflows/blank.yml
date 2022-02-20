@@ -31,7 +31,7 @@ jobs:
           cd Epic_repo
           cat README.md
           git merge origin
-          git push master
+          git push 
           git checkout app
           git remote set-url origin https://github.com/SNeeharika/Epic_repo.git
           git branch -a
