@@ -31,3 +31,8 @@ jobs:
           git checkout app
           git branch -a
           cat README.md
+          git pull origin master
+          git add .
+          git commit -m "updating app branch"
+          git push origin app
+          cat README.md
