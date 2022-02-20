@@ -29,11 +29,10 @@ jobs:
           git config --global user.name "SNeeharika"
           #git pull origin
           #git fetch origin
-        
           git remote set-url origin https://github.com/SNeeharika/Epic_repo.git
           cat README.md
-          git merge origin
-          git push -u origin
+          #git merge origin
+          #git push -u origin
           git checkout app
           git branch -a
           cat README.md
