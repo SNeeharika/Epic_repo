@@ -31,9 +31,21 @@ jobs:
           git fetch origin
           #git merge origin/master
           git checkout app
+<<<<<<< HEAD
+          git rebase master
+          git push origin app
+          #ls
+          #git rebase master
+          #git checkout escrow
+          #ls
+          #git branch -a
+          #git push origin app:escrow
+          cat README.md
+=======
           #ls
           #git checkout escrow
           #ls
           git branch -a
           #git push origin app:escrow
           ls
+>>>>>>> 3d6269f9a68c3f5890e1985f9a925d07420caa41
