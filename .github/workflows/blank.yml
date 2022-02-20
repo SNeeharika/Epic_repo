@@ -31,9 +31,9 @@ jobs:
           git checkout app
           git branch -a
           cat README.md
-          git config pull.rebase false   # rebase
+          #git config pull.rebase false   # rebase
           #git config pull.ff only 
-          git pull origin master
+          git pull origin master --allow-unrelated-histories
           git add .
           git commit -m "updating app branch"
           git push origin app
