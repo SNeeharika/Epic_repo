@@ -29,14 +29,11 @@ jobs:
           #git fetch origin
           git clone https://github.com/SNeeharika/Epic_repo.git
           cd Epic_repo
-          ls
           cat README.md 
           git checkout app
           git branch -a
           cat README.md
-          #git config pull.rebase false   # rebase
-          #git config pull.ff only 
-          git pull origin master --allow-unrelated-histories
+          git pull origin master 
           git add .
           git commit -m "updating app branch"
           git push origin app
