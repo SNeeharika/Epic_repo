@@ -23,17 +23,18 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo Add other actions to build.
+          git clone https://github.com/SNeeharika/Epic_repo.git
+          cd Epic_repo
           git config --global user.email "neeharika5samboji@gmail.com"
           git config --global user.name "SNeeharika"
           #git pull origin
           #git fetch origin
-          git clone https://github.com/SNeeharika/Epic_repo.git
-          cd Epic_repo
+        
+          git remote set-url origin https://github.com/SNeeharika/Epic_repo.git
           cat README.md
           git merge origin
           git push 
           git checkout app
-          git remote set-url origin https://github.com/SNeeharika/Epic_repo.git
           git branch -a
           cat README.md
           git merge origin/master
