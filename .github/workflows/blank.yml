@@ -37,5 +37,5 @@ jobs:
           #git pull origin master 
           #git add .
           #git commit -m "updating app branch"
-          git push origin master:app
+          git merge master
           cat README.md
