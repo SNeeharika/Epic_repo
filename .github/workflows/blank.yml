@@ -32,6 +32,7 @@ jobs:
           #git merge origin/master
           git checkout app
           #ls
+          git rebase master
           #git checkout escrow
           #ls
           #git branch -a
