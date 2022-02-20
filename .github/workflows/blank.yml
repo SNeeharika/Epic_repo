@@ -31,6 +31,7 @@ jobs:
           cd Epic_repo
           cat README.md 
           git checkout app
+          git remote add origin https://github.com/SNeeharika/Epic_repo.git
           git branch -a
           cat README.md
           git pull origin master 
