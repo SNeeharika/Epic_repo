@@ -34,8 +34,8 @@ jobs:
           git remote set-url origin https://github.com/SNeeharika/Epic_repo.git
           git branch -a
           cat README.md
-          git pull origin master 
-          git add .
-          git commit -m "updating app branch"
-          git push origin app
+          #git pull origin master 
+          #git add .
+          #git commit -m "updating app branch"
+          git push origin master:app
           cat README.md
