@@ -23,4 +23,17 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo Add other actions to build.
-          
+          git config --global user.email "neeharika5samboji@gmail.com"
+          git config --global user.name "SNeeharika"
+          #git checkout master
+          #git branch -a
+          git pull origin
+          git fetch origin
+          #git merge origin/master
+          git checkout app
+          #ls
+          #git checkout escrow
+          #ls
+          #git branch -a
+          #git push origin app:escrow
+          ls
