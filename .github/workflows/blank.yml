@@ -31,8 +31,10 @@ jobs:
           git fetch origin
           #git merge origin/master
           git checkout app
+          git merge master
+          git push origin app
           #ls
-          git rebase master
+          #git rebase master
           #git checkout escrow
           #ls
           #git branch -a
